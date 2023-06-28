@@ -11,7 +11,7 @@ const NftsItem = ({item}) => {
                     <PersonImg/>
                 </div>
             </div>
-            <div className='w-[90%] mx-auto '>
+            <div className='w-[90%] mx-auto mt-5'>
                 <div className='my-3 border-b-[1px] border-[#F4F4F4]'>
                     <div className=''>
                         <h4 className='text-xl font-bold ml-1'>{item.name}</h4>
