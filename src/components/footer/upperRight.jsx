@@ -3,7 +3,7 @@ const mrkPlace = ['All NFTs', 'New', 'Art', 'Sports', 'Utility', 'Music', 'Domai
 const myAccount = ['Profile', 'Favorite', 'My Collections', 'Settings']
 const UpperRight = () => {
     return (
-        <div className='md:w-[71%] mt-4 md:flex gap-12 md:ml-3'>
+        <div className='md:w-[71%] mt-4 flex md:flex-row flex-col md:gap-12 gap-8 md:ml-3'>
             <div>
                 <h1 className='text-xl font-bold mb-5'>Market Place</h1>
                 {

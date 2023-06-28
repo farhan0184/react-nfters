@@ -26,7 +26,7 @@ const Navbar = () => {
                         <li className='py-2 cursor-pointer hover:text-[#3D00B7]'>About</li>
                     </ul>
                     <div className='flex items-center md:my-0 my-5 md:ml-16 border-[1px] md:w-[26%] w-[90%] border-[#EFEFEF] rounded-[30px] bg-white' >
-                        <input className='p-2 rounded-l-[30px] border-0 w-[90%]' type="text " />
+                        <input className='px-5 py-2 rounded-l-[30px] border-0 w-[90%]' type="text " placeholder='Search'/>
                         <button className='md:pr-3'><CiSearch size='1.5rem' /></button>
                     </div>
                     <button className='py-3 md:mx-4 mr-6 md:px-6 px-10 rounded-[30px] bg-[#3D00B7] text-[white] hover:border-[#3D00B7] hover:border-2 hover:text-[#3D00B7] hover:bg-white'>Upload</button>

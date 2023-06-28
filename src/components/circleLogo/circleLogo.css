@@ -1,0 +1,10 @@
+svg {
+    fill: currentColor;
+    height: auto;
+    max-width: 66vmin;
+    transform-origin: center;
+    width: 7%;
+    background-color: #FFE0D4;
+    border-radius: 50px;
+    padding: 3px;
+}

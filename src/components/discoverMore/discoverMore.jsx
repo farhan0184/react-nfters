@@ -29,7 +29,7 @@ const DiscoverMore = () => {
                         </button>
                     </div>
                 </div>
-                <div className='md:grid md:grid-cols-4 md:gap-4 mt-10'>
+                <div className='md:grid md:grid-cols-4 md:gap-6 mt-10'>
                     {
                         nfts.map(item =>
                           <NftsItem key={item.id} item={item}/>   

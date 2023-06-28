@@ -1,7 +1,7 @@
 import React from 'react';
 import { Arkhan17, Item1 } from '../../imageSrc';
-import { FaEthereum } from 'react-icons/fa';
 import Eth from '../commons/Eth';
+import CircleLogo from '../circleLogo/circleLogo';
 
 const RightTopImg = () => {
     return (
@@ -25,13 +25,9 @@ const RightTopImg = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='absolute md:bottom-36 bottom-24  md:-left-12 '>
+                    <div className='absolute md:bottom-28 bottom-24  md:-left-12 '>
                     
-                        <div className='relative w-24 h-24 rounded-full bg-[#FFE0D4]'>
-                            <div className='absolute top-[45%] left-[40%]'>
-                            <FaEthereum size={20}/>
-                            </div>
-                        </div>
+                        <CircleLogo/>
 
                     </div>
                 </div>
