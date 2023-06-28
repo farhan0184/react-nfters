@@ -9,7 +9,7 @@ const UpperRight = () => {
                 {
                     mrkPlace.flatMap((item, idx) =>
                         <div key={idx}>
-                            <p className='py-1'>{item}</p>
+                            <p className='py-1 hover:text-[#2639ED]'>{item}</p>
                         </div>
                     )
                 }
@@ -19,7 +19,7 @@ const UpperRight = () => {
                 {
                     myAccount.flatMap((item, idx) =>
                         <div key={idx}>
-                            <p className='py-1'>{item}</p>
+                            <p className='py-1 hover:text-[#2639ED]'>{item}</p>
                         </div>
                     )
                 }

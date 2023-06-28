@@ -2,7 +2,7 @@ import React from 'react';
 
 const CollectionFeature = ({ item }) => {
     return (
-        <div key={item.id}>
+        <div className='hover:border-gray-300 hover:border-2 hover:p-3 hover:-mt-5 hover:-mr-5 hover:rounded-2xl' key={item.id}>
             <div className='flex gap-3'>
                 <div>
                     <img className='md:h-72 h-[274px] md:w-[290px] w-60' src={item.img1} alt="" />

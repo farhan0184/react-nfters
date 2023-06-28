@@ -4,7 +4,7 @@ import PersonImg from './personImg';
 
 const NftsItem = ({item}) => {
     return (
-        <div key={item.id} className='border-[1px] p-3 bg-white rounded-2xl md:mb-0 mb-5'>
+        <div key={item.id} className='border-[1px] hover:border-[2px] hover:border-gray-500 hover:-mr-2 hover:-mt-5 p-3 bg-white rounded-2xl md:mb-0 mb-5'>
             <div className='relative'>
                 <img className=' w-full h-72' src={item.img} alt="" />
                 <div className='absolute -bottom-4 left-3'>
